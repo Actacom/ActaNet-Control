@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST.ActaNet.Control.Tests", "REST.ActaNet.Control.Tests\REST.ActaNet.Control.Tests.csproj", "{E0B2A8C6-A71E-4310-BC00-13CF875F8DEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Front-End", "1. Front-End", "{E3514693-36FC-4D9A-A5DE-01FFD904799A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business-Layer", "2. Business-Layer", "{51E62BDB-67B2-4C63-9EBE-F8CABF5E9D1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Back-End", "3. Back-End", "{97F3D340-587D-4319-8ACF-ECAC04AAC51A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Shared", "4. Shared", "{C914F4C8-BCFD-435A-88D4-05096165D676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Installer", "5. Installer", "{3D6EAF25-299D-4439-B2F8-F4AD860FC473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActaNet.Control.REST", "ActaNet.Control.REST\ActaNet.Control.REST.csproj", "{C7CA48CD-A63B-4AC4-908D-E134149F674A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +21,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E0B2A8C6-A71E-4310-BC00-13CF875F8DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0B2A8C6-A71E-4310-BC00-13CF875F8DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0B2A8C6-A71E-4310-BC00-13CF875F8DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0B2A8C6-A71E-4310-BC00-13CF875F8DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CA48CD-A63B-4AC4-908D-E134149F674A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CA48CD-A63B-4AC4-908D-E134149F674A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CA48CD-A63B-4AC4-908D-E134149F674A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CA48CD-A63B-4AC4-908D-E134149F674A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7CA48CD-A63B-4AC4-908D-E134149F674A} = {51E62BDB-67B2-4C63-9EBE-F8CABF5E9D1C}
 	EndGlobalSection
 EndGlobal
