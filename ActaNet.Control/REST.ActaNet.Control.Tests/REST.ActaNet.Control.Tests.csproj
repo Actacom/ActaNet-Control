@@ -100,12 +100,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\REST.ActaNet.Control\REST.ActaNet.Control.csproj">
-      <Project>{A75D99C4-B4CB-4D93-A98F-F4C7DFB3B5C1}</Project>
-      <Name>REST.ActaNet.Control</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
